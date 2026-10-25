@@ -5,6 +5,10 @@ dist/
 .env.local
 *.tsbuildinfo
 .logs/
+# Isolated local runtime and database
+.local/
+__pycache__/
+*.pyc
 .gradle/
 build/
 backend/uploads/
